@@ -1,0 +1,6 @@
+cat > requirements.txt << 'EOF'
+# Nenhuma dependência externa por enquanto
+# Adicione aqui quando usar bibliotecas como:
+# requests==2.28.0
+# paramiko==3.0.0
+EOF

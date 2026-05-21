@@ -1,0 +1,12 @@
+```bash
+cat > .gitignore << 'EOF'
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.env
+venv/
+.vscode/
+.idea/
+docker-compose.override.yml
+EOF
