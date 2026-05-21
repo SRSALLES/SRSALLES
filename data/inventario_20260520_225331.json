@@ -1,0 +1,15 @@
+{
+  "versao": "2.0",
+  "data_scan": "2026-05-20T22:53:31.797045",
+  "ip_local": "127.0.1.1",
+  "rede": "127.0.1.0/24",
+  "total_dispositivos": 1,
+  "dispositivos": [
+    {
+      "ip": "172.18.224.1",
+      "mac": "00:15:5D:58:41:9E",
+      "fabricante": "Hyper-V (Virtual)",
+      "metodo": "ARP"
+    }
+  ]
+}

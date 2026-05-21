@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  monitor-rede:
+    build: .
+    container_name: monitor-rede-v2
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+    environment:
+      - TZ=America/Sao_Paulo
+      - PYTHONUNBUFFERED=1
+    # Modo interativo para ver resultados
+    stdin_open: true
+    tty: true
+    # Executar a cada 30 minutos (opcional)
+    # command: sh -c "while true; do python src/monitor_v2.py --html; sleep 1800; done"

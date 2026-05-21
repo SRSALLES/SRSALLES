@@ -1,0 +1,9 @@
+monitor-rede/
+├── src/
+│   └── monitor_v2.py    # Scanner principal
+├── data/                 # Relatórios gerados
+│   ├── inventario_*.json
+│   └── relatorio_*.html
+├── Dockerfile
+├── docker-compose.yml
+└── README.md
